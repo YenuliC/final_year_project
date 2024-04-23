@@ -1,0 +1,59 @@
+
+.get-start-container {
+    background: var(--vr-gear-light-color-secondary, #59D48E);
+  /* Padding around the content */
+    border-radius:0px; /* Rounded corners for the rectangle */
+    color:  var(--vr-gear-light-color-text-on-top, #174478);
+    align-items: center;
+    /* width: 1526px;
+     */
+}
+.get-start-topic{
+    margin-left: 50px;
+}
+.get-start-topic h1{
+    color: var(--vr-gear-light-color-text-on-top, #174478);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 108.333% */
+    letter-spacing: -1.44px;
+}
+
+.get-start-topic h2{
+    color: var(--vr-gear-light-color-text-on-top, #174478);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px; /* 116.667% */
+
+}
+
+.get-start-button{
+    width: 190px;
+    height: 60px;
+    flex-shrink: 0;
+    border: #7B00F9;
+    border-radius: 30px;
+    background: #7B00F9;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.home-pg-img{
+     margin-bottom: 145px;
+     margin-top: 10px;
+    width: 446px;
+    height: 290px;
+    flex-shrink: 0;
+   
+}
+

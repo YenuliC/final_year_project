@@ -1,0 +1,158 @@
+.sign-in-container {
+    background-image: url('./BG1.png'); /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    min-height: 100vh;
+   /* width: 100%; */
+  }
+  .signup_part{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .div1{
+    border-radius: 1rem;
+    background-color: white;
+    padding:2rem;
+    width: 20rem;
+    height: 32rem;
+ }
+
+  .logo{
+    margin-top:2rem;
+    justify-content:center;
+    text-align:center;
+}
+
+.elips{
+    margin-right: 2rem;
+    margin-top:2rem;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+
+/* 
+.div1{
+    margin-top: 50px;
+} */
+
+.mb-3{
+    width:15rem;
+}
+
+.custom-input{
+    background-color: #DBDBDB;
+}
+
+
+.continue{
+    color: white;
+    background-color: #7b00f9;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    width: 8rem;
+    height:2.5rem;
+    margin: 1rem 0;
+}
+
+.google_fb{
+    /* margin-bottom:0;
+    padding: 0px;
+    border-radius: 0; */
+    margin-bottom: 2rem;
+}
+
+.google{
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-right: 20px;
+}
+.fb{
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.topic-bottom{
+    margin-bottom: 50px;
+}
+
+.topic-bottom h6{
+    color: #333;
+}
+
+.topic-bottom h2{
+    font-weight: bold;
+}
+
+.line1{
+    margin: 2rem 0;
+}
+.help{
+    color: #1473E6;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.error-message{
+    color: #f44b09;
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+/*------------------------desktop-----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+.signin-container {
+    background-position: left;
+  }
+  .signup_part{
+    align-items: center;
+  margin-right: 50px;
+  }
+  
+  .div1{
+    border-radius: 1rem;
+    padding:3rem;
+    width: 35rem;
+    height: 42rem;
+    margin:7rem 3rem;
+ }
+
+  .logo{
+    margin-top: 30rem;
+    margin-left: 4rem;
+}
+
+.elips{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.mb-3{
+    width:28rem;
+}
+
+.continue{
+    width: 120px;
+    margin: 10px 0 10px 325px;
+    padding: 9px 20px 9px 20px;
+}
+
+.google_fb{
+    margin-bottom: 40px;
+}
+}

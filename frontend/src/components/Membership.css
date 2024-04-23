@@ -1,0 +1,117 @@
+.membership-container{
+
+   
+    flex-shrink: 0;
+    display: flex;
+    
+}
+
+.amount{
+    
+    text-align: end;
+    align-items: center;
+   
+    justify-content: center;
+    padding-top: 20px;
+    
+    flex-shrink: 0;
+    opacity: 0.8;
+    background-color: #fcfeb6;
+    
+   
+   
+        
+}
+
+.price{
+   
+    color: #000;
+    text-align: end;
+    font-family: Comfortaa;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 100px;
+   
+    
+}
+
+.duration{
+    color: #000;
+    text-align: end;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 100px;
+    
+    
+    
+}
+
+.tittle-sub{
+   width: 1070px;
+    height: 161px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background: #F5BD02;
+
+    
+}
+
+.tittle-bar{
+    
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background: #F5BD02;
+    padding: 10px;
+    
+}
+
+.tittle-mem{
+    margin-left: 30px;
+}
+
+.tittle-mem h1{
+    width: 254px;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tittle-mem p{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 214px;
+}
+
+.btn-subscribe{  
+    border-radius: 30px;
+    background: #000;
+    justify-content: end;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+    border: #000;
+   
+
+    
+
+}
+

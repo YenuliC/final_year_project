@@ -1,0 +1,89 @@
+.app{
+    background-color: #00042A;
+}
+
+.bold-link{
+    color: rgb(254, 254, 255);
+    margin-left: 50px;
+    font-weight: bold;
+    font-size:40px;
+
+
+}
+
+
+
+.nav{
+    background-color: #11002A;
+}
+
+.step-ct {
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.user_1{
+    margin-top: 10px;
+}
+
+.select-lt{
+    width: 698px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #00042A;
+    margin: 20px;
+    margin-top: 50px;
+}
+.layouts{
+    padding: 1px;
+    margin: 20px;
+    
+}
+
+.square-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .square-image {
+    width: 625px; /* Set the width to 100% to fill the available space */
+    max-height: 625px; /* Limit the height to prevent stretching */
+    object-fit: cover;
+    margin: 20px 300px;
+  }
+
+  .horizontal-line {
+    border-top: 1px solid #ccc;
+    height: 100%; 
+    /* Define the line style */
+    margin:  0; /* Adjust the margin as needed */
+  }
+
+  .btn-output{
+    width: 269px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #7B00F9;
+    color: aliceblue;
+    margin: 20px ;
+    border: none;
+   
+  }
+
+  .dropdown1{
+    border-radius: 50rem;
+    border-color: aliceblue;
+    background-color: #11002A; /* Button background color */
+    color: #ffffff; /* Button text color */
+    /* border: none; Remove button border */
+    padding: 4px 20px; /* Button padding */
+    cursor: pointer;
+  }

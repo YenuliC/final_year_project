@@ -1,0 +1,41 @@
+.app{
+    background-color: #00042A;
+}
+
+.bold-link{
+    color: rgb(254, 254, 255);
+    margin-left: 50px;
+    font-weight: bold;
+    font-size:40px;
+
+
+}
+
+.select-lt{
+    width: 698px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #00042A;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.btn-output{
+    width: 269px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #7B00F9;
+    color: aliceblue;
+    margin: 20px ;
+    border: none;
+   
+  }
+
+  

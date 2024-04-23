@@ -1,0 +1,74 @@
+.background {
+    background-color: #00042a;
+    border-bottom: 2px solid white;
+    padding-top: 20px;
+  
+  }
+  
+  .h4 {
+    background-color: white;
+    margin: 40px 0 0 50px;
+  }
+  
+  .toggle-btn {
+    background-color: #00042a;
+    border-radius: 10px;
+    margin: 20px 20px 20px 30px;
+  }
+
+  .btn-primary{
+    margin: 20px 20px 20px 30px;
+  }
+  
+  .horizontal-line {
+    border: 2px solid white;
+  }
+  
+  .input {
+    border-radius: 20px;
+    background-color: #00042a;
+    color: aqua;
+    width: 95%;
+  }
+  
+  .form1 {
+    margin: 10px 0 20px 30px;
+  }
+  
+  .form2 {
+    width: 20%;
+  }
+  
+  .plus-btn {
+    margin: -10px 0 20px 40px;
+    width: 35px;
+    border-radius: 60px;
+    padding: 5px 5px 7px 5px;
+  }
+  
+  .input1 {
+    border-radius: 5px;
+    background-color: #00042a;
+    color: aqua;
+    width: 280px;
+  }
+  
+  .select-layout {
+    width: 260px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #7B00F9;
+    color: aliceblue;
+    margin: 20px ;
+    border: none;
+  }
+
+  #colorPicker{
+    height: 5px;
+    margin: 20px 20px 20px 30px;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+  }
+  
