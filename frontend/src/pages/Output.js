@@ -11,6 +11,17 @@ import Footer from "../components/Footer"
 import Header1 from '../components/Header1';
 
 const Output = () => {
+
+    const handleDownload = () => {
+        const imageUrl = ".\\img\\design1.png"; // Path to your image
+        const link = document.createElement('a');
+        link.href = imageUrl;
+        link.download = 'design1.png';  // Set the download filename here
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    
     return (
         <div className='app'>
             <Container fluid>
@@ -63,7 +74,7 @@ const Output = () => {
 
 
                             <div className="p-2 ms">
-                                <Button type="button" className='btn btn-output'>Download Image<img src='.\img\Arrow - Bottom.svg' alt='arrow'></img></Button>
+                                <Button type="button" className='btn btn-output'onClick={handleDownload}>Download Image<img src='.\img\Arrow - Bottom.svg' alt='arrow'></img></Button>
                             </div>
 
                         </Stack>

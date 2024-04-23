@@ -51,7 +51,7 @@ async def generate_image(
         date=date,
         venue=venue,
         customTags=customTags or [],
-        image=image
+      
     )
     print(data)
     file_location = f"uploaded_images/{image.filename}"
